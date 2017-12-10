@@ -1,20 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const AdoptaLayout = props => (
+const AboutLayout = props => (
   <div className="container">
     <div className="row">
       <div className="col m12">
-        <h4>¡Adoptanos!</h4>
-        <label>No compres, adopta</label>
+        <h4>Aprende sobre este mini proyecto</h4>
+        <p>Aquí verás las rutas compuestas (o anidadas).</p>
         {props.children}
       </div>
     </div>
   </div>
 );
 
-export default AdoptaLayout;
+export default AboutLayout;
 
-AdoptaLayout.propTypes = {
+AboutLayout.propTypes = {
   children: PropTypes.object.isRequired
 };

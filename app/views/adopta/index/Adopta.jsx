@@ -26,5 +26,5 @@ const Adopta = props => (
 export default Adopta;
 
 Adopta.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.array.isRequired
 };

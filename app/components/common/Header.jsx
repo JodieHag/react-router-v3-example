@@ -7,7 +7,7 @@ const Header = () => (
       <div className="nav-wrapper">
         <ul className="left">
           <li>
-            <Link to="/" activeClassName="active">
+            <Link to="/" activeClassName="active" onlyActiveOnIndex>
               Home
             </Link>
           </li>
@@ -22,8 +22,8 @@ const Header = () => (
             </Link>
           </li>
           <li>
-            <Link to="/hole" activeClassName="active">
-              Hole
+            <Link to="/ejemplo-not-found" activeClassName="active">
+              Not Found
             </Link>
           </li>
         </ul>

@@ -11,7 +11,8 @@ const config = {
   entry: `${APP_DIR}/index.jsx`,
   output: {
     path: BUILD_DIR,
-    filename: 'main.js'
+    filename: 'main.js',
+    publicPath: '/'
   },
   plugins: [
     new CleanWebpackPlugin(['dist']),
@@ -61,10 +62,10 @@ const config = {
         test: /\.scss/,
         loader: 'style-loader!css-loader!sass-loader?outputStyle=expanded'
       }, {
-        test: /\.(png|jpg|gif|woff|woff2)$/,
-        loader: 'url-loader?limit=8192'
+        test: /\.(svg|png|jpg|gif|woff|woff2)$/,
+        use: 'base64-inline-loader?limit=1000&name=[name].[ext]'
       }, {
-        test: /\.(mp4|ogg|svg)$/,
+        test: /\.(mp4|ogg)$/,
         loader: 'file-loader'
       }, {
         test: /\.json$/,

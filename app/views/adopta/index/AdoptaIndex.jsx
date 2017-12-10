@@ -4,10 +4,10 @@ import data from './adopta.json';
 
 require('./adopta.scss');
 
-const AdoptaContainer = () => (
+const AdoptaIndex = () => (
   <Adopta
     data={data.data}
   />
 );
 
-export default AdoptaContainer;
+export default AdoptaIndex;

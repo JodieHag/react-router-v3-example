@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
@@ -10,4 +10,12 @@ main {
 
 .pointer {
   cursor: pointer;
+}
+
+a {
+  color: $primary;
+
+  &.active {
+    text-decoration: underline;
+  }
 }

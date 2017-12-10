@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "moduleNameMapper": {
+    "Header": "<rootDir>/app/components/common/Header.jsx"
+  },
+  "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+  "unmockedModulePathPatterns": [
+    "node_modules/react/",
+    "node_modules/enzyme/"
+  ],
+  "unmockedModulePathPatterns": [
+    "react",
+    "enzyme",
+    "jest-enzyme"
+  ]
+}

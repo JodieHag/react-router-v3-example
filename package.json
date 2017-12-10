@@ -9,6 +9,9 @@
     "prod": "webpack --env='prod' --progress --colors",
     "load": "webpack-dev-server --open --env='dev'"
   },
+  "engines": {
+    "node": "6.11.2"
+  },
   "author": "Judit Sánchez (JodieHag)",
   "license": "MIT",
   "dependencies": {

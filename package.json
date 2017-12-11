@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "base64-inline-loader": "^1.1.0",
+    "babel-core": "^6.26.0",
     "babel-loader": "^7.0.0",
     "clean-webpack-plugin": "^0.1.17",
     "codemirror": "^5.27.4",
@@ -47,7 +48,6 @@
     "webpack-merge": "^4.1.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-jest": "^21.2.0",
     "babel-minify-webpack-plugin": "^0.2.0",

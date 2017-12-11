@@ -1,6 +1,5 @@
 'use strict'
 
-const mongoose = require('mongoose');
 const app = require('./server/app');
 const config = require('./server/config.js');
 

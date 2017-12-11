@@ -4,7 +4,8 @@
   "description": "",
   "main": "app/index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --env='dev' -d --watch",
+    "start": "node index.js",
+    "dev": "webpack-dev-server --inline --hot --env='dev' -d --watch",
     "stage": "webpack --env='stage' --progress --colors",
     "prod": "webpack --env='prod' --progress --colors",
     "load": "webpack-dev-server --open --env='dev'"
@@ -16,13 +17,11 @@
   "license": "MIT",
   "dependencies": {
     "base64-inline-loader": "^1.1.0",
-    "body-parser": "^1.18.2",
     "clean-webpack-plugin": "^0.1.17",
     "codemirror": "^5.27.4",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
     "eslint-loader": "^1.7.1",
-    "express": "^4.16.2",
     "file-loader": "^0.11.1",
     "highlight.js": "^9.12.0",
     "history": "^4.6.1",
@@ -30,7 +29,6 @@
     "json-loader": "^0.5.4",
     "lodash": "^4.17.4",
     "materialize-css": "^0.100.2",
-    "mongoose": "^4.13.6",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
     "prop-types": "^15.5.10",

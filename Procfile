@@ -1,2 +1,1 @@
-worker: node index.js
-web: npm start
+web: npm run prod && node index.js

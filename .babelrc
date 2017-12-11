@@ -5,6 +5,6 @@
       "presets": ["minify"]
     }
   },
-  "plugins": ["transform-react-jsx", "transform-decorators", "babel-plugin-transform-decorators-legacy",
-    "babel-plugin-transform-decorators", "babel-plugin-transform-undefined-to-void"]
+  "plugins": ["babel-plugin-transform-decorators-legacy",
+    "babel-plugin-transform-decorators"]
 }

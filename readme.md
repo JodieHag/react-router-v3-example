@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Ver demo](https://dashboard.heroku.com/apps/react-router-v3-example)
+[Ver demo](https://react-router-v3-example.herokuapp.com)
 
 ## Instalación
 

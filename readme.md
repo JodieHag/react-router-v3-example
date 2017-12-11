@@ -1,5 +1,7 @@
 # Codigo ejemplo de una WebApp ReactJs con react-route v3
 
+Esto es el proyecto-ejemplo que acompaña al curso de React Route v3.
+
 ## Demo
 
 [Ver demo](https://react-router-v3-example.herokuapp.com)
@@ -8,7 +10,7 @@
 
 Para instalar este proyecto primero debes clonarlo:
 
-`git clone `
+`git clone git@github.com:JodieHag/react-router-v3-example.git`
 
 Muevete a la carpeta correspondiente, será el nombre del proyecto si no le has indicado lo contrario:
 

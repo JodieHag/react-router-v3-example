@@ -25,7 +25,12 @@ const config = {
       {
         from: `${APP_DIR}/static/img`,
         to: `${BUILD_DIR}/img`
-      }, {
+      },
+      {
+        from: `${APP_DIR}/static/img/favicons`,
+        to: `${BUILD_DIR}/img/favicons`
+      },
+      {
         from: `${APP_DIR}/static/scss/utils/fonts`,
         to: `${BUILD_DIR}/fonts`
       }
